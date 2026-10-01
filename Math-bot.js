@@ -17,7 +17,7 @@ const numRoundedDown = Math.floor(6.7);
 console.log(numRoundedDown);
 
 console.log("Now, generate a random integer between two values.")
-const randomInt = Math.floor(Math.random() * (max - min) + min); 
+const randomInt = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log(randomInt);
 
 console.log("The Math.ceil() method rounds the value up to the nearest whole integer.");
